@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2018-12-15T08:08:10.812Z",
+    "end": "2018-12-15T08:08:15.874Z",
+    "duration": 5062,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercentClass": "success",
+    "pendingPercentClass": "danger"
+  },
+  "suites": {
+    "uuid": "802a5b5e-48ec-456c-a8c1-0a09fbe1f80a",
+    "title": "",
+    "fullFile": "",
+    "file": "",
+    "beforeHooks": [],
+    "afterHooks": [],
+    "tests": [],
+    "suites": [
+      {
+        "uuid": "8bcfc188-c60f-4727-9894-9becc9ac4267",
+        "title": "Actions",
+        "fullFile": "",
+        "file": "",
+        "beforeHooks": [],
+        "afterHooks": [],
+        "tests": [
+          {
+            "title": ".type() - type into a DOM element",
+            "fullTitle": "Actions .type() - type into a DOM element",
+            "duration": 2408,
+            "state": "passed",
+            "speed": "slow",
+            "pass": true,
+            "fail": false,
+            "pending": false,
+            "code": "// https://on.cypress.io/type\ncy.visit('https://trello.com/login?');\ncy.get('#user').type('cypressworkshop@outlook.com').should('have.value', 'cypressworkshop@outlook.com');\ncy.get('#password').type('1234567890');\ncy.get('#login').click();",
+            "err": {},
+            "isRoot": false,
+            "uuid": "1199f40c-e0de-42ba-83d9-ddacb2afb509",
+            "isHook": false,
+            "skipped": false
+          }
+        ],
+        "suites": [],
+        "passes": [
+          "1199f40c-e0de-42ba-83d9-ddacb2afb509"
+        ],
+        "failures": [],
+        "pending": [],
+        "skipped": [],
+        "duration": 2408,
+        "root": false,
+        "rootEmpty": false,
+        "_timeout": 2000
+      }
+    ],
+    "passes": [],
+    "failures": [],
+    "pending": [],
+    "skipped": [],
+    "duration": 0,
+    "root": true,
+    "rootEmpty": true,
+    "_timeout": 2000
+  },
+  "copyrightYear": 2018
+}
